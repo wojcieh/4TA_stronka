@@ -142,26 +142,34 @@
           border-bottom: 1px solid #555;
           padding: 10px 0;
         }
+        .hero {
+          height: 300px;
+        }
+        .hero-content h1{
+          font-size: 1.8em
+        }
+        .hero-content p {
+          font-size: 0.9em;
+        }
+        section {
+          flex-direction: column;
+        }
+        .korzysci-kontener {
+          grid-template-columns: 1fr;
+        }
+
       }
     </style>
   </head>
   <body>
+    <nav>
     <ul class="nav-bar">
-      <ul>
-        <a href="#" class="nav-item">Strona główna</a>
+              <a href="#" class="nav-item">Strona główna</a>
+             <a href="#" class="nav-item">O nas</a>
+              <a href="#" class="nav-item">Usługi</a>
+              <a href="#" class="nav-item">Kontakt</a>
       </ul>
-      <ul>
-        <a href="#" class="nav-item">O nas</a>
-      </ul>
-
-      <ul>
-        <a href="#" class="nav-item">Usługi</a>
-      </ul>
-
-      <ul>
-        <a href="#" class="nav-item">Kontakt</a>
-      </ul>
-    </ul>
+    </ul></nav>
 <section class="hero">
   <div class="hero-content">
     <h1>Odkryj Potęge Nowoczesnego CSS</h1>
@@ -228,7 +236,6 @@
         </article>
       </div>
     </section>
-
     <footer>
       <p>&copy; 2025 Maszewska Company. Wszystkie prawa zastrzeżone. | Stronę wykonał ITTEACHERPL</p>
     </footer>
